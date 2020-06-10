@@ -13,30 +13,26 @@ body {
   background-color: #aacdbe;
 }
 .intro {
-  position: absolute;
-  right: 600px;
-  top: 100px;
-  color: #4d4138;
-  right: 550px;
+    color: #4d4138;
 }
 .sun {
   position: absolute;
-  right: 300px;
-  width: auto;
-  height: 200px;
+  right: 10%;
+  width: 15%;
+  height: auto;
   top: 50px;
 }
 .beach {
-  margin-top: 200px;
+  margin-top: 50px;
   width: 30%;
   height: auto;
 }
 .cloud {
   position: absolute;
-  width: 200px;
+  width: 15%;
   height: auto;
   top: 200px;
-  left: 200px;
+  left: 10%;
 }
 h1 {
   font-family: "Permanent Marker", cursive;
@@ -115,14 +111,13 @@ h3 {
   text-decoration: none;
 }
 .btn {
-  background: #3d94f6;
-  background-image: linear-gradient(to bottom, #85b3e7, #4a86ca);
+  background: #aacdbe;
   border-radius: 20px;
-  color: #aacdbe;
+  color: white;
   font-family:"Montserrat", sans-serif;
   font-size: 20px;
   padding: 10px;
-  border: solid #85b3e7 1px;
+  border: solid #aacdbe 1px;
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
@@ -132,8 +127,8 @@ h3 {
 }
 
 .btn:hover {
-background: #1e62d0;
-border: solid #337fed 1px;
+background: #7acea9;
+border: solid #aacdbe 1px;
 border-radius: 20px;
 text-decoration: none;
 }
